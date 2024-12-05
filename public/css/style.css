@@ -1,3 +1,168 @@
-body{
-    background-color: hotpink;
+html {
+  scroll-behavior: smooth;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+br {
+  margin: 0px;
+}
+
+a {
+  color: #ffc56d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  padding-left: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+  width: 800px;
+  height: 450px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+table, th, td {
+  border: 1px solid #a0a0a0;
+  border-collapse: collapse;
+  text-align: center;
+  
+}
+
+#faq .question {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+  max-width: 900px;
+}
+
+pre {
+  background-color: #222;
+  border: #ffc56dad 2px solid;
+  border-radius: 7px;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  white-space: pre-wrap;
+  padding-left: 20px;
+}
+
+code {
+  background-color: #222;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin:0px;
+
+}
+
+@media screen and (hover:none) {
+    a {
+        text-decoration: underline;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+
+  footer img {
+    max-width: 200px;
+    margin: 10px auto;
+  }
+
+  audio {
+    width: 100%;
+  }
+}
+  
